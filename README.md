@@ -1,1 +1,5 @@
-# IHM_App
+# IHM
+-Naji Abdellah
+-Turletti Theo
+-Haitam Ali
+-Lebbar Souhail
