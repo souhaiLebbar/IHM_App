@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
+import android.view.WindowManager;
 
 import org.osmdroid.api.IMapController;
 import org.osmdroid.config.Configuration;
