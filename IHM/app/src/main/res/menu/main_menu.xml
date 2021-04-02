@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/demander_1"
+        android:icon="@drawable/home_icon"
+        android:title="DEMAND"
+        >
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/demander_2"
+                    android:icon="@drawable/home_icon"
+                    android:title="favorite"
+                    />
+                <item
+                    android:id="@+id/demander_3"
+                    android:icon="@drawable/home_icon"
+                    android:title="requests"/>
+            </group>
+        </menu>
+
+    </item>
+
+
+    <item
+        android:id="@+id/donner_1"
+        android:icon="@drawable/home_icon"
+        android:title="GIVE">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/donner_2"
+                    android:icon="@drawable/home_icon"
+                    android:title="donner" />
+                <item
+                    android:id="@+id/donner_3"
+                    android:icon="@drawable/home_icon"
+                    android:title="donner" />
+            </group>
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/stats_1"
+        android:icon="@drawable/home_icon"
+        android:title="statistics">
+    </item>
+</menu>
